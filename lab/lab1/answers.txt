@@ -1,0 +1,49 @@
+Factorial.c program
+
+1.  When you ran the program before using gdb (step 5 in the lab 
+	 instructions), what output did you get with input of 3 and 
+	 with input of 5 ??  
+- I got an output of 0.
+
+
+2.  What output should you have gotten with each of those inputs?
+- For an input of 3, the output should have been 6. For an input of 5,
+the output should have been 120.
+
+
+3.  Why is the output incorrect?  Fix the program so that it works and
+	 explain how you fixed it.
+- The output is incorrect because n is being decremented before it is multiplied
+by result in the loop, so in the last run of the loop, n is 0 and it multiplies by result again, making result = 0. I fixed it by making the while loop's
+condition just "n", and adding "n--;" after the "result *= n;" so that when
+result is multiplied by n for the last time, n = 1 and result will have the 
+correct value.
+	 
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+segFault.c program
+
+4.  Why would buf still be NULL after the malloc function call?  Use the
+	 man pages with malloc to see if you can get any ideas.
+- The malloc function was trying to allocate an enormous area of memory--a size
+too big for the computer to handle. So, malloc failed and no memory was being
+allocated.
+
+
+5.  How can you fix the program so that it doesn't segfault?
+- Change the malloc argument from 1 bitshift 31 to 1 bitshift
+ (a much smaller number).
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+memoryLeak.c program
+
+6.  How many bytes of memory were lost with this program?
+- 100 bytes
+
+7.  Where in the program was the lost memory allocated?
+- Line 11 of memoryLeak.c
+
+
+
+
+

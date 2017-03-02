@@ -1,0 +1,32 @@
+
+loaded cam 
+
+loaded blue 
+
+material     blue
+ambient        0.0   0.0  10.0
+diffuse        0.0   0.0   0.0
+specular       0.0
+
+
+loaded wall 
+
+plane        wall
+material     blue
+normal         0.0   0.0   1.0
+
+point          3.0   2.0  -2.0
+
+dist to plane 1    7.000 
+hit point    4.000    3.000   -2.000 
+
+dist to plane 2    8.000 
+hit point    4.000    3.000   -3.000 
+
+positive z test 
+dist to plane 2   -1.000 
+hit point    0.000    0.000    0.000 
+
+vertical ray test 
+dist to plane 1   -1.000 
+hit point    0.000    0.000    0.000 

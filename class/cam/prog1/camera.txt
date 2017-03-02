@@ -1,0 +1,6 @@
+camera mycam
+{
+   pixeldim  601 901
+   worlddim  6   9
+   viewpoint  3 4.5 6
+}

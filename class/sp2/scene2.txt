@@ -1,0 +1,29 @@
+camera cam1
+{
+  pixeldim  800 600
+  worlddim  8 6
+  viewpoint 4 3 2
+}
+
+material green
+{
+   ambient 0  4 0
+}
+
+material yellow
+{
+   ambient  4  3 0
+}
+
+plane leftwall
+{
+   material green
+   normal 3 0 1
+   point  1 0 0
+}
+plane rightwall
+{
+   material yellow
+   normal -3 0 1
+   point   7  0 0
+}

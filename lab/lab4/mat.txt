@@ -1,0 +1,24 @@
+material blue
+{
+   ambient 0 0 5
+   diffuse 0 0 5
+}
+
+material green
+{
+   ambient  0 6 0
+   diffuse  0 7 0
+   specular 1
+}
+
+material gray
+{
+   ambient 2 2 2
+}
+
+material yellow
+{
+   ambient  7 6 0
+   diffuse  7 7 0
+}
+

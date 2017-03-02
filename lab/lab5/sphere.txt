@@ -1,0 +1,35 @@
+material yellow
+{
+   ambient  10  10  0.0
+}
+
+material red
+{
+   ambient 10.0 0.0 0.0
+}
+
+material green
+{
+   ambient 0.0  5.0 0.0
+}
+
+sphere  center
+{
+  material yellow
+  center   4  3.25  -6
+  radius   3
+}
+
+sphere left
+{
+  material green
+  radius 4
+  center 2 3 -8
+}
+
+sphere right
+{
+  material red
+  center 6 3 -8
+  radius 4
+}

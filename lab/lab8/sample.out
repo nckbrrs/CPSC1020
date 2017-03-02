@@ -1,0 +1,19 @@
+checking amount:  0.00
+
+Enter checking dollars (integer value): 125
+Enter checking cents (integer value): 77
+
+checking amount after read:  125.77
+
+savings amount:  575 dollars and 85 cents
+
+other amount in total cents:  95055 cents
+
+Setting new amount in checking
+new checking amount:  $1200.98
+
+printing my_money
+$550.75
+destructor invoked
+destructor invoked
+destructor invoked

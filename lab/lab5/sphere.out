@@ -1,0 +1,65 @@
+
+loaded yellow 
+
+loaded red 
+
+loaded green 
+
+material     yellow
+ambient       10.0  10.0   0.0
+diffuse        0.0   0.0   0.0
+specular       0.0
+
+material     red
+ambient       10.0   0.0   0.0
+diffuse        0.0   0.0   0.0
+specular       0.0
+
+material     green
+ambient        0.0   5.0   0.0
+diffuse        0.0   0.0   0.0
+specular       0.0
+
+loaded center 
+
+loaded left 
+
+loaded right 
+
+sphere        center
+material      yellow
+center         4.0   3.2  -6.0
+radius         3.0
+
+sphere        left
+material      green
+center         2.0   3.0  -8.0
+radius         4.0
+
+sphere        right
+material      red
+center         6.0   3.0  -8.0
+radius         4.0
+
+dist to sphere 1    8.010 
+hit point    4.000    3.000   -3.010
+
+dist to sphere 2    9.536 
+hit point    4.000    3.000   -4.536
+
+dist to sphere 3    9.536 
+hit point    4.000    3.000   -4.536
+
+left sphere test
+
+dist to sphere 2    9.318 
+hit point    3.535    3.000   -4.306
+
+right sphere test
+
+dist to sphere 3    9.318 
+hit point    4.465    3.000   -4.306
+
+vertical ray test 
+dist to sphere 2   -1.000 
+hit point    0.000    0.000    0.000

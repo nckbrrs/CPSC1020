@@ -1,0 +1,48 @@
+creating   e_t mmmmm  at 0xcf54b0 
+creating   e_t fffff  at 0xcf54f0 
+creating   e_t ccccc  at 0xcf5530 
+creating   e_t ddddd  at 0xcf5570 
+creating   e_t jjjjj  at 0xcf55b0 
+creating   e_t yyyyy  at 0xcf55f0 
+creating   e_t wwwww  at 0xcf5630 
+
+Printing list contents 
+ccccc             3 
+ddddd             4 
+fffff             6 
+jjjjj            10 
+mmmmm            13 
+wwwww            23 
+yyyyy            25 
+destroying e_t yyyyy  at 0xcf55f0 
+destroying link_t 
+creating   e_t zzzzz  at 0xcf5610 
+destroying e_t ccccc  at 0xcf5530 
+destroying link_t 
+creating   e_t bbbbb  at 0xcf5550 
+destroying e_t fffff  at 0xcf54f0 
+destroying link_t 
+
+Printing list contents 
+bbbbb             2 
+ddddd             4 
+jjjjj            10 
+mmmmm            13 
+wwwww            23 
+zzzzz            26 
+destroying e_t bbbbb  at 0xcf5550 
+destroying link_t 
+destroying e_t ddddd  at 0xcf5570 
+destroying link_t 
+destroying e_t jjjjj  at 0xcf55b0 
+destroying link_t 
+destroying e_t mmmmm  at 0xcf54b0 
+destroying link_t 
+destroying e_t wwwww  at 0xcf5630 
+destroying link_t 
+
+Printing list contents 
+zzzzz            26 
+destroying e_t zzzzz  at 0xcf5610 
+destroying link_t 
+in list destructor 

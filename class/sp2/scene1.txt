@@ -1,0 +1,23 @@
+camera cam1
+{
+  pixeldim  800 600
+  worlddim  8 6
+  viewpoint 4 3 3
+}
+
+material steelblue
+{
+   ambient 0  4 6
+}
+
+material yellow
+{
+   ambient  5  4 0
+}
+
+plane backwall
+{
+   material steelblue
+   normal 0 0  1
+   point  1 0 -4
+}

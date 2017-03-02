@@ -1,0 +1,6 @@
+Nicholas Barrs
+
+ambient lighting with planes and sphere
+diffuse lighting with shadows
+mymodel.txt
+

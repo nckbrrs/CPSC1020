@@ -1,0 +1,31 @@
+
+loaded cam 
+
+loaded green 
+
+material     green
+ambient        0.0  10.0   0.0 
+diffuse        0.0   0.0   0.0 
+specular       0.0 
+
+loaded center 
+
+sphere       center
+material     green
+center         4.0   3.2  -6.0
+radius         5.0
+
+dist to sphere 1    6.006 
+hit point    4.000    3.000   -1.006
+
+dist to sphere 1    6.006 
+hit point    4.000    3.000   -1.006
+
+left sphere test
+
+dist to sphere 1    6.023 
+hit point    3.699    3.000   -1.015
+
+vertical ray test 
+dist to sphere 1   -1.000 
+hit point    0.000    0.000    0.000

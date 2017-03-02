@@ -1,0 +1,21 @@
+
+
+Ray direction:  -0.500  -0.100  -1.000
+Hit: leftwall     Dist =    7.633 Loc = (   0.600    2.320   -1.800)
+
+Hit: floor        Dist =   33.675 Loc = ( -11.000    0.000  -25.000)
+
+Ray direction:   0.500  -0.100  -1.000
+Hit: rightwall    Dist =    7.633 Loc = (   7.400    2.320   -1.800)
+
+Hit: floor        Dist =   33.675 Loc = (  19.000    0.000  -25.000)
+
+Ray direction:   0.000  -0.500  -1.000
+Hit: floor        Dist =    6.708 Loc = (   4.000    0.000   -1.000)
+
+Hit: leftwall     Dist =   19.007 Loc = (   4.000   -5.500  -12.000)
+
+Ray direction:   1.000   1.000   1.000
+Dist =   -1.000 
+
+Dist =   -1.000 

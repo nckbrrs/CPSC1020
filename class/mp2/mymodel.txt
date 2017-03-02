@@ -1,0 +1,110 @@
+camera cam1
+{
+	pixeldim 800 600
+	worlddim 8 6
+	viewpoint 4 3 3
+}
+
+material seagreen
+{
+	ambient 1 4 3
+	diffuse 4 3 0 
+	specular 3
+}
+
+material purple
+{
+	ambient 2 0 4
+}
+
+material white
+{
+	ambient 10 10 10
+}
+
+material black
+{
+	ambient 0 0 0
+}
+
+material yellow
+{
+	ambient 5 4 0
+}
+
+material green 
+{
+	ambient 0 5 0
+}
+
+sphere head
+{
+	material seagreen
+	center 4 3 -5
+	radius 4
+}
+
+sphere lefteye
+{
+	material white
+	center 3 4 -2
+	radius 1
+}
+
+sphere righteye
+{
+	material white
+	center 5 4 -2
+	radius 1
+}
+
+sphere leftpupil
+{
+	material black
+	center 3 4 -1.5
+	radius 0.6
+}
+
+sphere rightpupil
+{
+	material black
+	center 5 4 -1.5
+	radius 0.6
+}
+
+sphere mouth
+{
+	material black
+	center 4 2.5 -1
+	radius 0.25
+}
+
+tiled_plane floor
+{
+	material white
+	normal 0 8 5
+	point 0 -0.1 0
+	dimension 2.0 1.0
+	altmaterial purple
+}
+
+plane leftwall
+{
+	material yellow
+	normal 5 0 0.5
+	point -3 0 0
+}
+
+plane rightwall 
+{
+	material green
+	normal -5 0 0.5
+	point 11 0 0
+}
+
+plane backwall
+{
+	material purple
+	normal 0 0 1
+	point 4 3 -7
+}

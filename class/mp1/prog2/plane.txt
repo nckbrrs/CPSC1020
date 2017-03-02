@@ -1,0 +1,18 @@
+camera cam
+{
+   viewpoint 4  3  4
+   pixeldim  321  241
+   worlddim 8  6
+}
+
+material blue
+{
+   ambient  0  0  10
+}
+
+plane wall
+{
+  material blue
+  normal 0 0 1
+  point  3 2 -2
+}
